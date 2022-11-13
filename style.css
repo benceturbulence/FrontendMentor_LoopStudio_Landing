@@ -415,6 +415,11 @@ footer > * {
         background-color: var(--white);
         padding: 3rem 0 0 3rem;
     }
+
+    .img-description {
+        font-size: 2rem;
+        padding: 1em;
+    }
     
     .intro-text {
         line-height: 2;
