@@ -376,12 +376,16 @@ footer > * {
     font-size: 1.7rem;
 }
 
+
+/* Hover actions */
+
+
 .menu-item-link {
     padding: .3rem;
     border-bottom: 2px solid transparent;
 }
 .img-wrapper:hover > img {
-    filter: blur(3px);
+    filter: brightness(.4)
 }
 
 .img-wrapper:hover > .img-description {
