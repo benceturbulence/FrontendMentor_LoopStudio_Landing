@@ -100,6 +100,8 @@ header {
     /* margin-not applied for hero img */
     grid-column: 1 /-1;
     grid-row: 1;
+/* So that image expands when bigger screen size */
+	width:100%
 }
 
 .logo {
