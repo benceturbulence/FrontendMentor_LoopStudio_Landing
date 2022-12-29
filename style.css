@@ -128,9 +128,6 @@ header {
     color: var(--white);
 }
 
-
-
-
 /* Mobile navbar */
 
 .navbar {
@@ -200,13 +197,6 @@ header {
     padding: 7rem 0 4rem;
 }
 
-
-h2 {
-    text-align: center;
-    font-size: 2rem;
-    padding: 2rem 0 1rem;
-}
-
 .intro-text {
     text-align: center;
     color: var(--very-dark-gray);
@@ -264,6 +254,14 @@ h1, h2, h3, .btn {
     text-transform: uppercase;
 }
 
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0 1rem;
+}
+
+/* Layout */
+
 .navbar,
 .hero-text {
     grid-column: 1/-1;
@@ -279,7 +277,6 @@ h1, h2, h3, .btn {
     padding: 1.1rem;
     line-height: 1;
 }
-
 
 .btn {
     padding: .7rem 2.7rem;
@@ -337,10 +334,6 @@ footer > * {
 }
 
 
-
-
-
-
 /* Desktop navbar */
 @media (min-width: 650px){
 
@@ -391,6 +384,22 @@ footer > * {
 .img-wrapper:hover > .img-description {
     font-weight: 500;
 }
+
+.btn:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+a:hover {
+    border-bottom: 2px solid transparent;
+}
+
+.menu-item-link:hover {
+    border-color: var(--white);
+}
+
+footer a:hover {
+    border-color: var(--white);
 }
 
 @media (min-width: 900px){
@@ -494,26 +503,6 @@ footer > * {
     }
 
 }
-
-.btn:hover {
-    background-color: var(--black);
-    color: var(--white);
-}
-
-a:hover {
-    border-bottom: 2px solid transparent;
-}
-
-.menu-item-link:hover {
-    border-color: var(--white);
-}
-
-footer a:hover {
-    border-color: var(--white);
-}
-
-
-
 
 .attribution {
     padding: 2rem;
